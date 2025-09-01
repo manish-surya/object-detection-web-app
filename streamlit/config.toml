@@ -1,0 +1,37 @@
+# .streamlit/config.toml
+
+[theme]
+# Default theme (Dark)
+primaryColor = "#764ba2"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#fafafa"
+font = "sans serif"
+
+[theme.Light]
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[theme.Dark]
+primaryColor = "#764ba2"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#fafafa"
+font = "sans serif"
+
+[theme.Ocean]
+primaryColor = "#00d4ff"
+backgroundColor = "#0a1929"
+secondaryBackgroundColor = "#1e3a8a"
+textColor = "#e0f2fe"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
